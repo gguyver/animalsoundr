@@ -9,10 +9,10 @@ animal_sounds(animal, sound)
 \arguments{
 \item{animal}{An animal name, e.g. "Tiger", "Dog"}
 
-\item{sound}{A sound the animal will make, e.g. "Roar", "Woof"}
+\item{sound}{A sound the animal will make, e.g. "Roar", "Woof", which is pasted together using \code{\link[=paste]{paste()}}.}
 }
 \description{
-Print an animal with provided sound
+This function takes two strings and returns a \strong{pasted output}.
 }
 \examples{
 animal_sounds("dog", "woof")

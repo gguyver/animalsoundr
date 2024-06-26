@@ -1,9 +1,10 @@
 #' Print an animal with provided sound
 #'
-#' @param animal An animal name, e.g. "Tiger", "Dog"
-#' @param sound A sound the animal will make, e.g. "Roar", "Woof"
+#' This function takes two strings and returns a **pasted output**.
 #'
-#' @return NULL
+#' @param animal An animal name, e.g. "Tiger", "Dog"
+#' @param sound A sound the animal will make, e.g. "Roar", "Woof", which is pasted together using [paste()].
+#'
 #' @export
 #'
 #' @examples
