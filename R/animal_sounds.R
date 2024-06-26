@@ -9,19 +9,23 @@
 #'
 #' @examples
 #' animal_sounds("dog", "woof")
-animal_sounds <- function(animal, sound) {
-
-  if(!rlang::is_character(sound, n = 1)) {
-    cli::cli_abort(
-      c("{.var sound} must be a single string.",
-                   "i" = "It was {.type {sound}}"),
-    class = "error_not_single_sound"
-    )
+animal_sounds <- function(animal, sound = NULL) {
+  if(!is.null(sound)) {
+    if(!rlang::is_character(sound, n = 1)) {
+      cli::cli_abort(
+        c("{.var sound} must be a single string.",
+          "i" = "It was {.type {sound}}"),
+        class = "error_not_single_sound"
+      )
+    }
   }
+
   if(!rlang::is_character(animal, n = 1)) {
     cli::cli_abort("{.var animal} must be a single string.")
   }
-  stopifnot(is.character(animal) & length(animal) == 1)
-  stopifnot(is.character(sound) & length(sound) == 1)
-  paste0("The ", animal, " says ", sound, ", ", sound, ", ", sound, "!")
+  if (animal == "giraffe") {
+    paste0("The giraffe makes no sound")
+  } else {
+    paste0("The ", animal, " says ", sound, ", ", sound, ", ", sound, "!")
+  }
 }
