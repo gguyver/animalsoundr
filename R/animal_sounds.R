@@ -14,8 +14,9 @@ animal_sounds <- function(animal, sound) {
   if(!rlang::is_character(sound, n = 1)) {
     cli::cli_abort(
       c("{.var sound} must be a single string.",
-                   "i" = "It was {.type {sound}}")
-      )
+                   "i" = "It was {.type {sound}}"),
+    class = "error_not_single_sound"
+    )
   }
   if(!rlang::is_character(animal, n = 1)) {
     cli::cli_abort("{.var animal} must be a single string.")
