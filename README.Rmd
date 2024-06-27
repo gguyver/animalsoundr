@@ -16,6 +16,7 @@ knitr::opts_chunk$set(
 # animalsoundr
 
 <!-- badges: start -->
+[![R-CMD-check](https://github.com/gguyver/animalsoundr/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/gguyver/animalsoundr/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of animalsoundr is to go through the R packaging process, making and building a simple package that allows us to practice the packaging process. 

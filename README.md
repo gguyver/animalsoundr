@@ -5,6 +5,7 @@
 
 <!-- badges: start -->
 
+[![R-CMD-check](https://github.com/gguyver/animalsoundr/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/gguyver/animalsoundr/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of animalsoundr is to go through the R packaging process,
