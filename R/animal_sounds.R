@@ -9,6 +9,7 @@
 #'
 #' @examples
 #' animal_sounds("dog", "woof")
+#' @importFrom cli cli_abort
 animal_sounds <- function(animal, sound = NULL) {
   if(!is.null(sound)) {
     if(!rlang::is_character(sound, n = 1)) {

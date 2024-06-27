@@ -17,7 +17,7 @@ Useful links:
 
 }
 \author{
-\strong{Maintainer}: First Last \email{first.last@example.com} (\href{https://orcid.org/YOUR-ORCID-ID}{ORCID})
+\strong{Maintainer}: Glen Guyver-Fletcher \email{glen.guyver-fletcher@warwick.ac.uk}
 
 }
 \keyword{internal}
