@@ -8,5 +8,4 @@
 #'    \item{animal}{The farm animal as a string.}
 #'    \item{sound}{The sound the farm animal makes, as a string.}
 #'  }
-
 "farm_animals"
