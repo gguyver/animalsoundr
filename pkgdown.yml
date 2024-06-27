@@ -1,0 +1,10 @@
+pandoc: 3.1.11
+pkgdown: 2.0.9
+pkgdown_sha: ~
+articles:
+  animal-sounds: animal-sounds.html
+last_built: 2024-06-27T12:06Z
+urls:
+  reference: https://gguyver.github.io/animalsoundr/reference
+  article: https://gguyver.github.io/animalsoundr/articles
+
