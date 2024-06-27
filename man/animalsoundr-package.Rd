@@ -12,6 +12,7 @@ What the package does (one paragraph).
 Useful links:
 \itemize{
   \item \url{https://github.com/gguyver/animalsoundr}
+  \item \url{https://gguyver.github.io/animalsoundr/}
   \item Report bugs at \url{https://github.com/gguyver/animalsoundr/issues}
 }
 

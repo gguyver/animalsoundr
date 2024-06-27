@@ -8,7 +8,7 @@ License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.1
-URL: https://github.com/gguyver/animalsoundr
+URL: https://github.com/gguyver/animalsoundr, https://gguyver.github.io/animalsoundr/
 BugReports: https://github.com/gguyver/animalsoundr/issues
 Imports: 
     purrr,
